@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 
 const uri =
-  "mongodb+srv://pushpendra:semidot123@cluster0.0ysxpco.mongodb.net/Restaurants?retryWrites=true&w=majority";
+  "your atlas or compass connection link forEg: https://localhost:8000/restaurant";
 
 mongoose.connect(uri, {
   useNewUrlParser: true,
